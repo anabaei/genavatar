@@ -1,0 +1,28 @@
+@import '~bootstrap/scss/bootstrap';
+
+.App {
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+}
+.Header {
+  height: 10vh;
+  background-color: aqua;
+}
+.Main {
+  height: 90vh;
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.side-bar{
+ 
+}
+.feed{
+ 
+}
+
+
+
+
+
