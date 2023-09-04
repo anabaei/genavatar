@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import Sidebar from './components/sidebar';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </div>
       <div className='Main'>
         <div className='side-bar'>
-          <Button variant="primary">Primary</Button>
+          <Sidebar />
         </div>
         <div className='feed'>
           <Button variant="primary">Primary</Button>
